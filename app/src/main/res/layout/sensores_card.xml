@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    android:padding="2dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:elevation="2dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tipo_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Example"
+                android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+            <RelativeLayout
+                android:id="@+id/active_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tipo_text"
+                android:layout_marginBottom="16dp">
+                <TextView
+                    android:id="@+id/button_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/estado_atual_do_sensor"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="2dp"/>
+
+                <Switch
+                    android:id="@+id/estado_switch"
+                    android:layout_toRightOf="@id/button_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/descricao_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/active_layout"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis elit sed varius. Sed et laoreet odio, vel imperdiet dui. Nullam congue lectus convallis sollicitudin fermentum. Maecenas finibus congue ipsum, finibus gravida quam sodales a. Ut sagittis mi felis." />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

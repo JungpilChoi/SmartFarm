@@ -9,4 +9,5 @@
     <string name="volume_do_reservat_rio">Volume do reservatório</string>
     <string name="encher">encher</string>
     <string name="m_dulo_inteligente">Módulo inteligente</string>
+    <string name="estado_atual_do_sensor">Estado atual do sensor:</string>
 </resources>
