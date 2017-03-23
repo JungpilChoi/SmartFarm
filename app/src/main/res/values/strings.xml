@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SmartFarm</string>
+    <string name="ultima_irrigacao">Última irrigação:</string>
+    <string name="as">às</string>
+    <string name="irrigar">Irrigar</string>
+    <string name="modulo_inteligente">Módulo inteligente:</string>
 </resources>
