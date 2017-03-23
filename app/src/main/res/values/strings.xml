@@ -4,4 +4,9 @@
     <string name="as">às</string>
     <string name="irrigar">Irrigar</string>
     <string name="modulo_inteligente">Módulo inteligente:</string>
+    <string name="umidade_do_solo">Umidade do solo</string>
+    <string name="fluxo_de_gua">Fluxo de água</string>
+    <string name="volume_do_reservat_rio">Volume do reservatório</string>
+    <string name="encher">encher</string>
+    <string name="m_dulo_inteligente">Módulo inteligente</string>
 </resources>
